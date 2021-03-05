@@ -1,0 +1,74 @@
+#1Create a list
+hall = 11.25
+kit = 18.0
+liv = 20.0
+bed = 10.75
+bath = 9.50
+
+areas = [hall, kit, liv, bed, bath]
+print(areas)
+
+#2Create list with different types
+hall = 11.25
+kit = 18.0
+liv = 20.0
+bed = 10.75
+bath = 9.50
+areas = ["hallway", hall, "kitchen", kit, "living room", liv, "bedroom",  bed, "bathroom", bath]
+print(areas)
+
+#3List of lists
+hall = 11.25
+kit = 18.0
+liv = 20.0
+bed = 10.75
+bath = 9.50
+house = [["hallway", hall],
+         ["kitchen", kit],
+         ["living room", liv],
+         ["bedroom", bed],
+         ["bathroom", bath]]
+print(house)
+print(type(house))
+
+#4Subset and conquer
+areas = ["hallway", 11.25, "kitchen", 18.0, "living room", 20.0, "bedroom", 10.75, "bathroom", 9.50]
+print(areas[1])
+print(areas[-1])
+print(areas[5])
+
+#5Subset and calculate
+areas = ["hallway", 11.25, "kitchen", 18.0, "living room", 20.0, "bedroom", 10.75, "bathroom", 9.50]
+eat_sleep_area = areas[3] + areas[7]
+print(eat_sleep_area)
+
+#6Slicing and dicing
+areas = ["hallway", 11.25, "kitchen", 18.0, "living room", 20.0, "bedroom", 10.75, "bathroom", 9.50]
+downstairs = areas[0:6]
+upstairs = areas[6:]
+print(downstairs)
+print(upstairs)
+
+#7Slicing and dicing (2)
+areas = ["hallway", 11.25, "kitchen", 18.0, "living room", 20.0, "bedroom", 10.75, "bathroom", 9.50]
+downstairs = areas[:6]
+upstairs = areas[6:]
+
+#8Replace list elements
+areas = ["hallway", 11.25, "kitchen", 18.0, "living room", 20.0, "bedroom", 10.75, "bathroom", 9.50]
+areas[-1] = 10.50
+areas[4] = "chill zone"
+
+#9Extend a list
+areas = ["hallway", 11.25, "kitchen", 18.0, "chill zone", 20.0,
+         "bedroom", 10.75, "bathroom", 10.50]
+areas_1 = areas + ["poolhouse", 24.5]
+areas_2 = areas_1 + ["garage", 15.45]
+
+#10Inner workings of lists
+areas = [11.25, 18.0, 20.0, 10.75, 9.50]
+areas_copy = list(areas)
+areas_copy[0] = 5.0
+print(areas)
+
+

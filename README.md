@@ -7,6 +7,6 @@ week 1 兩個線上課程筆記整理
 # kaggle 3
 內容 : COVID19 Global Forecasting (Week 5)
 # kaggle 4
-內容 :　Predicting-Baseball-Statistics　predict hit distance　
+內容 : Predicting-Baseball-Statistics　predict hit distance　
 # kaggle 5
 

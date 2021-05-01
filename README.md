@@ -9,4 +9,4 @@ week 1 兩個線上課程筆記整理
 # kaggle 4
 內容 : Predicting-Baseball-Statistics　predict hit distance　
 # kaggle 5
-
+內容 :　March Machine Learning Mania 2021 - NCAAM - Spread
